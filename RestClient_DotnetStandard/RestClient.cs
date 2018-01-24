@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace RestClient_DotnetStandard
 {
+    // this code was created by Houssem Dellai at first,this just an adaptation to the new Xamarin strategy dotnet standard after that PCLs  was obsoleted
     public class RestClient<T>
     {
+        
         public List<T> Get(string WebServiceUrl)
         {
             var httpClient = new HttpClient();
