@@ -5,8 +5,8 @@
     <version>1.0.0</version>
     <authors>Gassen</authors>
     <owners>Gassen</owners>
-    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
-    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
+    <licenseUrl>https://github.com/GassenBenHadj/RestClient-DotnetStandard</licenseUrl>
+    <projectUrl>https://github.com/GassenBenHadj/RestClient-DotnetStandard </projectUrl>
     <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Package description</description>
