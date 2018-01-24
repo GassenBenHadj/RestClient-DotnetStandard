@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>RestClient_DotnetStandard.Gassen_Ben_Hadj</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>Gassen Ben Hadj</Authors>
+    <Description>RestClient for Xamarin and Xamarin Forms to simplify the consumption of Web services</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>First release</PackageReleaseNotes>
+    <Copyright>Copyright 2018 (c) Gassen ben hadj. All rights reserved.</Copyright>
+    <PackageTags>RestClient Json WebAPI</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard2.0\RestClient_DotnetStandard.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+
+
+</Project>
